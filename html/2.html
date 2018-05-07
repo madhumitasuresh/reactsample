@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://unpkg.com/react@16.3.2/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16.3.2/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+</head>
+<body>
+        <div id="root"></div>
+        <script type="text/babel">
+   class App extends Component { 
+  render() { 
+    return (
+      <div className="App"> 
+        <h1>HELLO REACT!</h1>
+
+        <div className="App-header"> 
+          <img src={this.props.logo} className="App-logo" alt="logo" /> 
+          <h2>Welcome to React</h2> 
+        </div> 
+
+        <p className="App-intro"> 
+          To get started, edit
+          {' '}
+          <code>src/App.js</code> and save to reload. 
+        </p> 
+      </div>
+    ); 
+  } 
+}
+      </script>
+</body>
+</html>
